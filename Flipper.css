@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+#btn{
+    border: 2px black;
+    border-radius: 2rem;
+    
+}
+#btn:hover{
+    box-shadow: 3px 3px 5px;
+    transition: 0.3s ease;
+}
+h2{
+    margin-top: 1rem;
+    text-align: center;
+}
